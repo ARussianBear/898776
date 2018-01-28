@@ -1,0 +1,20 @@
+{
+  "name": "mafiabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.13.9",
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.10"
+  }
+}
